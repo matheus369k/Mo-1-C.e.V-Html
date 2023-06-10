@@ -1,5 +1,49 @@
 body{
+    margin: auto;
+    padding: 0px;
+    min-width: 320px;
+    max-width: 1000px;
     text-align: center;
     background-color: black; 
     color: white;
+}
+
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    
+}
+
+.principal > a >img{
+    width: 49%;
+}
+
+div{
+    position: relative;
+    padding-bottom: 54%;
+}
+
+div > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+}
+
+h1{
+    font-size: 3em;
+}
+
+a{
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 255, 0.404);
+    transition: 0.7s;
+    border-radius: 10px;
 }
